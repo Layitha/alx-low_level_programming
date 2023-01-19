@@ -1,0 +1,57 @@
+#include "main.h"
+#include "_MAIN_H_"
+
+ /**
+  * add - adds two integers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the sum
+  */
+ int add(int a, int b)
+ {
+ 	return (a + b);
+ }
+
+ /**
+  * sub - subtracts two integers
+  * @a: first in to add
+  * @b: second int to add
+  * Return: the subtract
+  */
+ int sub(int a, int b)
+ {
+ 	return (a - b);
+ }
+
+ /**
+  * mul - multiplies two integers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the multiple
+  */
+ int mul(int a, int b)
+ {
+ 	return (a * b);
+ }
+
+ /**
+  * div - divideds two integers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the dividend integer
+  */
+ int div(int a, int b)
+ {
+ 	return (a / b);
+ }
+
+ /**
+  * mod - get remainder of the division of 2 numbers
+  * @a: first int to add
+  * @b: second int to add
+  * Return: the modulus
+  */
+ int mod(int a, int b)
+ {
+ 	return (a % b);
+ }
